@@ -1,0 +1,339 @@
+<!doctype html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>job_board</title>
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/custom.css" rel="stylesheet" type="text/css">
+<link href="css/custom_responsive.css" rel="stylesheet" type="text/css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+
+
+
+
+
+
+
+
+<!--Animation-->
+<script src="js/wow.min.js"></script>
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+<script>
+	new WOW().init();
+</script>
+<!--/End-Animation-->
+
+
+<!--<script>
+$(document).ready(function() {
+	alert($(window).width());
+    
+});
+
+
+
+</script>-->
+
+<script>
+$(document).ready(function(){
+    $(".menu_dash").mouseenter(function(){
+        $(".dropdown_dash").slideDown();
+    });
+	$(".dropdown_dash").mouseleave(function(){
+		$(".dropdown_dash").slideUp();
+	});
+});
+</script>
+
+
+
+  
+
+
+
+
+</head>
+<body>
+<div class="row">
+<div class="top_header">
+<div class="container">
+<div class="col-sm-3 col-lg-3 col-md-3 col-xs-4 ym">
+<a class="logo" href="#"><img src="images/logo.png"  alt="logo"></a>
+
+
+</div>
+<div class="col-sm-6 col-lg-6 col-md-6 col-xs-8 ymm pull-right">
+<div class="dashboard_header">
+          <div class="menu_dash">
+            <span class="uu_roundd"><img alt="" src="images/profile_pic.png" class="img-circle "></span>
+            <p>Hi, ABHISHEK <img src="images/hi.png" class="noboder arr_topp" alt=""></p>
+            <div class="clearfix"></div>
+            
+             </div>
+            <div class="dropdown_dash" style="display:none;">
+       <ul>
+     <li><a href="#">Account Settings</a></li>
+     <li><a href="#">Withdrawal Request</a></li>
+     <li><a href="#">Transactions</a></li>
+     <li><a href="#">Sign Out</a></li>
+     </ul>
+      </div>
+            
+            </div>
+
+
+
+</div>
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+</div>
+
+<div class="row">
+<div class="login_banner">
+	<img src="images/lgin_bnr.jpg" alt="">
+    <div class="job_board_text">
+    	<h3>find your next job</h3>
+    </div>
+</div>
+
+
+<div class="container">
+	<div class="job_outer">
+    	<div class="row">
+        	<div class="col-md-3 col-sm-3 col-xs-12 nopadding">
+            	<select class="job_boxx">
+                	<option>catagory </option>
+                    <option>catagory 2</option>
+                    <option>catagory 3</option>
+                </select>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-12 nopadding">
+            	<input type="text" value="" class="job_box" placeholder="Location" />
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-12 nopadding">
+            	<input type="text" value="" class="job_box" placeholder="Within # Miles" />
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-12 nopadding">
+            	<input type="submit" value="search" class="search_box" />
+            </div>
+        </div>
+    </div>
+
+
+<div class="table_outer">
+	<div class="table">
+    	<div class="one_row1 hidden-xs hidden-sm">
+                            
+           <div class="cell1 tab_head_sheet">Project Name </div>
+            <div class="cell1 tab_head_sheet">Type</div>  
+            <div class="cell1 tab_head_sheet splleft text_lleft_1 text_lleft_1"> Location </div>
+            <div class="cell1 tab_head_sheet splleft text_lleft_1 text_lleft_1">Budget 	</div>
+            <div class="cell1 tab_head_sheet splleft text_lleft_1">Posted</div>
+            <div class="cell1 tab_head_sheet splleft text_lleft_1">Bids</div>
+          
+        </div>
+       
+       <!--loop Starts-->   
+       <div class="one_row1 small_screen31 small_1 small_p bg_c">
+                        
+  <div class="cell1 tab_head_sheet_1 tab_head_sheet_111 extra_pdng"><span class="W55_1">Project Name</span><span class="wwss">Aerial filming</span></div>
+  
+       <div class="cell1 tab_head_sheet_1 tab_head_sheet_111 extra_pdng "><span class="W55_1">Type</span><span class="wwss">Film and TV (i.e. TV Commercial)</span></div>
+       
+ <div class="cell1 tab_head_sheet_1 tab_head_sheet_111 splleft text_lleft_1 extra_pdng"><span class="W55_1"> Location</span><span class="wwss"> Kankurgachi, Kolkata, West Bengal,
+India</span></div>
+ 
+ 
+     <div class="cell1 tab_head_sheet_1 tab_head_sheet_111 splleft text_lleft_1 extra_pdng"><span class="W55_1">Budget</span><span class="wwss ">$1000‑$3000 	</span> </div>
+     
+     <div class="cell1 tab_head_sheet_1 tab_head_sheet_111  splleft text_lleft_1 extra_pdng"><span class="W55_1">Posted</span><span class="wwss"> 7/01/17</span></div>
+     
+     
+  <div class="cell1 tab_head_sheet_1 tab_head_sheet_111 splleft text_lleft_1 extra_pdng"><span class="W55_1">Bids</span><span class="wwss">10</span></div>
+    
+ 
+   </div>
+   
+           <!--loop end--> 
+        
+        <!--loop Starts-->  
+              
+       <div class="one_row1 small_screen31 small_1 small_p bg_c">
+                        
+  <div class="cell1 tab_head_sheet_1 tab_head_sheet_111 extra_pdng"><span class="W55_1">Project Name</span><span class="wwss">Asset Inspection</span></div>
+  
+       <div class="cell1 tab_head_sheet_1 tab_head_sheet_111 extra_pdng"><span class="W55_1">Type</span><span class="wwss">Real Estate (i.e. Building/home)</span></div>
+       
+ <div class="cell1 tab_head_sheet_1 tab_head_sheet_111 splleft text_lleft_1 extra_pdng"><span class="W55_1"> Location</span><span class="wwss"> Kankurgachi, Kolkata, West Bengal,
+India</span></div>
+ 
+ 
+     <div class="cell1 tab_head_sheet_1 tab_head_sheet_111 splleft text_lleft_1 extra_pdng"><span class="W55_1">Budget</span><span class="wwss ">$350‑$1000 	</span> </div>
+     
+     <div class="cell1 tab_head_sheet_1 tab_head_sheet_111  splleft text_lleft_1 extra_pdng"><span class="W55_1">Posted</span><span class="wwss"> 6/02/17</span></div>
+     
+     
+  <div class="cell1 tab_head_sheet_1 tab_head_sheet_111 splleft text_lleft_1 extra_pdng"><span class="W55_1">Bids</span><span class="wwss">05</span></div>
+    
+ 
+   </div>     
+     
+     <!--loop end--> 
+     
+  <!--loop Starts-->  
+     
+   <div class="one_row1 small_screen31 small_1 small_p bg_c">
+                        
+  <div class="cell1 tab_head_sheet_1 tab_head_sheet_111 extra_pdng"><span class="W55_1">Project Name</span><span class="wwss">Aerial filming</span></div>
+  
+       <div class="cell1 tab_head_sheet_1 tab_head_sheet_111 extra_pdng "><span class="W55_1">Type</span><span class="wwss">Film and TV (i.e. TV Commercial)</span></div>
+       
+ <div class="cell1 tab_head_sheet_1 tab_head_sheet_111 splleft text_lleft_1 extra_pdng"><span class="W55_1"> Location</span><span class="wwss"> Kankurgachi, Kolkata, West Bengal,
+India</span></div>
+ 
+ 
+     <div class="cell1 tab_head_sheet_1 tab_head_sheet_111 splleft text_lleft_1 extra_pdng"><span class="W55_1">Budget</span><span class="wwss ">$1000‑$3000 	</span> </div>
+     
+     <div class="cell1 tab_head_sheet_1 tab_head_sheet_111  splleft text_lleft_1 extra_pdng"><span class="W55_1">Posted</span><span class="wwss"> 7/01/17</span></div>
+     
+     
+  <div class="cell1 tab_head_sheet_1 tab_head_sheet_111 splleft text_lleft_1 extra_pdng"><span class="W55_1">Bids</span><span class="wwss">10</span></div>
+    
+ 
+   </div> 
+    
+    <!--loop end--> 
+    
+      <!--loop Starts-->  
+    
+    <div class="one_row1 small_screen31 small_1 small_p bg_c">
+                        
+  <div class="cell1 tab_head_sheet_1 tab_head_sheet_111 extra_pdng"><span class="W55_1">Project Name</span><span class="wwss">Asset Inspection</span></div>
+  
+       <div class="cell1 tab_head_sheet_1 tab_head_sheet_111 extra_pdng "><span class="W55_1">Type</span><span class="wwss">Real Estate (i.e. Building/home)</span></div>
+       
+ <div class="cell1 tab_head_sheet_1 tab_head_sheet_111 splleft text_lleft_1 extra_pdng"><span class="W55_1"> Location</span><span class="wwss"> Kankurgachi, Kolkata, West Bengal,
+India</span></div>
+ 
+ 
+     <div class="cell1 tab_head_sheet_1 tab_head_sheet_111 splleft text_lleft_1 extra_pdng"><span class="W55_1">Budget</span><span class="wwss ">$350‑$1000 	</span> </div>
+     
+     <div class="cell1 tab_head_sheet_1 tab_head_sheet_111  splleft text_lleft_1 extra_pdng"><span class="W55_1">Posted</span><span class="wwss"> 6/02/17</span></div>
+     
+     
+  <div class="cell1 tab_head_sheet_1 tab_head_sheet_111 splleft text_lleft_1 extra_pdng"><span class="W55_1">Bids</span><span class="wwss">05</span></div>
+    
+ 
+   </div>
+   
+     <!--loop end-->    
+     
+     
+        
+    </div>
+</div>
+	
+    
+</div>
+
+  
+  
+      
+ <div class="row">
+ <div class="footer">
+ <div class="container">
+ <div class="col-sm-6 col-lg-6 col-md-6">
+ <div class="abt_drone">
+ <h3>About Pic A Drone</h3>
+ <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.  has been the industry's standard dummy text ever since the When an printer.</p>
+ <a class="read_m" href="#">Read More<span><img src="images/arrow.png"  alt="arrow"></span></a>
+ 
+ 
+ 
+ </div>
+ 
+ 
+ 
+ </div>
+ 
+  <div class="col-sm-2 col-lg-2 col-md-2">
+  <div class="menu_f"><h3>Menu</h3>
+  <ul>
+  <li><a href="#">Home</a></li>
+  
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Contact Us</a></li>
+     <li><a href="#">Support</a></li>
+  
+  </ul>
+  
+  
+  
+  </div>
+  
+  
+  
+  </div>
+ 
+ <div class="col-sm-4 col-lg-4 col-md-4">
+  <div class="contact_f"><h3>Connect With Us</h3>
+  <p>Phone No. (5200) 8925-1520</p>
+    <p>Email . picadrone55test@gmail.com</p>
+    <ul>
+    <li class="fb"><a href="#"><img src="images/soc_1.png"  alt="facebook">
+    </a></li>
+    
+      <li class="tw"><a href="#"><img src="images/soc_2.png" alt="twitter">
+
+      </a></li>  <li class="g_plus"><a href="#"><img src="images/soc_3.png" alt="twitter">
+</a></li>  <li class="pin"><a href="#"><img src="images/soc_4.png" alt="twitter">
+</a></li>
+    
+    </ul>
+  
+  
+  </div>
+  
+  
+  
+  </div>
+ </div>
+ 
+ <div class="clearfix"></div>
+ <div class="bottom_footer">
+ <div class="container"><p>Copyrights <span>&copy; 2017</span> all Rights Reserved PicADrone.com
+</p></div>
+ 
+ 
+ </div>
+ 
+ </div>
+ 
+ 
+ 
+ </div>
+    
+
+
+</body>
+</html>

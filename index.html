@@ -1,351 +1,509 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>index</title>
-	<!--style-->
-    <link href="css/style.css" type="text/css" rel="stylesheet" media="all"/>
-    <link href="css/responsive.css" type="text/css" rel="stylesheet" media="all"/>
-    <!--bootstrape-->
-    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet" media="all"/>
-    <!--font-awesome-->
-    <link href="css/font-awesome.min.css" type="text/css" rel="stylesheet" media="all"/>
-    <!--fonts-->
-    <!--<link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet"> -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Aclonica" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,900" rel="stylesheet"> 
-    <!-- Owl Stylesheets -->
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    
-<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>   
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- Owl javascript -->
-<script src="js/jquery.min.js"></script>
-<script src="js/owl.carousel.js"></script>   
- 
+<title>Index</title>
+
+
+
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet"> 
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/custom.css" rel="stylesheet" type="text/css">
+<link href="css/custom_responsive.css" rel="stylesheet" type="text/css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+
+
+
+
+
+
+
+
+<!--Animation-->
+<script src="js/wow.min.js"></script>
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+<script>
+	new WOW().init();
+</script>
+<!--/End-Animation-->
+
+
+<!--<script>
+$(document).ready(function() {
+	alert($(window).width());
+    
+});
+
+
+
+</script>-->
+<!-- JS file -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/easy-autocomplete/1.3.5/jquery.easy-autocomplete.min.js"></script> 
+
+<!-- CSS file -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/easy-autocomplete/1.3.5/easy-autocomplete.min.css"> 
+
+<!-- Additional CSS Themes file - not required-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/easy-autocomplete/1.3.5/easy-autocomplete.themes.min.css"> 
+<script>
+var options = {
+
+	url: "json/contries.json",
+
+	getValue: "name",
+
+	list: {	
+		match: {
+		  enabled: true
+		}
+	},
+
+	theme: "square"
+};
+$(document).ready(function(){
+	//alert();
+	$("#countries").easyAutocomplete(options);
+});
+
+</script>
+
+  
+
+
+
+
 </head>
-
 <body>
+<div class="row">
+<div class="top_header">
+<div class="container">
+<div class="col-sm-3 col-lg-3 col-md-3 col-xs-4 ym">
+<a class="logo" href="#"><img src="images/logo.png"  alt="logo"></a>
 
-<!--wrapper start-->
-<div class="wrapper">
 
-<header class="header-area">
-	<div class="container">
-    	<div class="row">
-        	<nav class="navbar navbar-expand-md menu">
-              <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
-              </button>
-            
-              <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto mob-open">
-                  <li class="active">
-                    <a class="" href="#">Explore</a>
-                  </li>
-                  <li class="">
-                    <a class="" href="#">Types</a>
-                  </li>
-                  <li class="">
-                    <a class="" href="#">Brands</a>
-                  </li>
-                  <li class="">
-                    <a class="" href="#">Boat finder</a>
-                  </li>
-                  <li class="">
-                    <a class="" href="#">Research</a>
-                  </li>
-                </ul>
-                <a class="request-btn" href="#">Request a quote</a>
-              </div>
-            </nav>	
-        </div>
-    </div> 
-</header> 
-
-<section class="banner-area">
-	<div class="container">
-    	<div class="row">
-        	<div class="banner-container">
-            	<h1>WE’LL DELIVER <br> BEYOND YOUR EXPECTATION</h1>
-                <a href="#">Go</a>
-                <a href="#">More</a>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="about-area">
-	<div class="container">
-    	<div class="row">
-        	<div class="col-lg-6 col-md-12 col-sm-12">
-            	<h2>About us</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum eu facilisis sed odio morbi quis. Dignissim sodales ut eu sem integer. Dictum fusce ut placerat orci nulla. Euismod in pellentesque massa placerat duis ultricies lacus sed turpis. Cursus euismod quis viverra nibh cras pulvinar. </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum eu facilisis sed odio morbi quis. Dignissim sodales ut eu sem integer. Dictum fusce ut placerat orci nulla. Euismod in pellentesque massa placerat duis ultricies lacus sed turpis. Cursus euismod quis viverra nibh cras pulvinar. </p>
-            </div>
-            <div class="col-lg-6 col-md-12 col-sm-12">
-            	<div class="about-right">
-                	<ul>
-                    	<li><img src="images/about_1.png" alt=""></li>
-                        <li><img src="images/about_2.png" alt=""></li>
-                        <li><img src="images/about_3.png" alt=""></li>
-                        <li><img src="images/about_4.png" alt=""></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="services-area">
-	<div class="container">
-    	<div class="row">
-        	<div class="col-lg-12 col-md-12 col-sm-12">
-            	<ul>
-                	<li>
-                    	<i class="fa fa-tachometer" aria-hidden="true"></i>
-                        <h3>Day Cruising</h3>
-                        <p>Lorem ipsum is simply dummy text</p>
-                    </li>
-                    
-                    <li>
-                    	<i class="fa fa-wpexplorer" aria-hidden="true"></i>
-                        <h3>Night Cruising</h3>
-                        <p>Lorem ipsum is simply dummy text</p>
-                    </li>
-                    
-                    <li>
-                    	<i class="fa fa-asterisk" aria-hidden="true"></i>
-                        <h3>Watersports</h3>
-                        <p>Lorem ipsum is simply dummy text</p>
-                    </li>
-                    
-                    <li>
-                    	<i class="fa fa-anchor" aria-hidden="true"></i>
-                        <h3>Sailing</h3>
-                        <p>Lorem ipsum is simply dummy text</p>
-                    </li>
-                    
-                    <li>
-                    	<i class="fa fa-bullseye" aria-hidden="true"></i>
-                        <h3>Saltwater Fishing</h3>
-                        <p>Lorem ipsum is simply dummy text</p>
-                    </li>
-                    
-                    <li>
-                    	<i class="fa fa-fire-extinguisher" aria-hidden="true"></i>
-                        <h3>Freshwater Fishing</h3>
-                        <p>Lorem ipsum is simply dummy text</p>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="featured-boat">
-	<div class="container">
-    	<div class="row">
-        	<h2>Featured Boat</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum eu facilisis sed odio morbi quis. Dignissim sodales ut eu sem integer. </p>
-            <div class="featured_menu">
-            	<ul>
-                	<li class="active"><a href="#">YACHT</a></li>
-                    <li><a href="#">BOAT</a></li>
-                    <li><a href="#">CANDE</a></li>
-                    <li><a href="#">SAILBOAT</a></li>
-                </ul>
-            </div>
-            <div class="col-lg-5 col-md-12 col-sm-12">
-            	<div class="left-featured">
-                	<img src="images/featured_1.png" alt="">
-                    <div class="overflow">
-                    	<h3>2019 Grady-White 330 Express</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-7 col-md-12 col-sm-12">
-            	<div class="listing_one">
-                	<img src="images/featured_2.png" alt="">
-                    <div class="over-flow">
-                    	<h5>2017 Grady-White 335 Freedom</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                    </div>
-                </div>
-                
-                <div class="listing_tow">
-                	<div class="short-featured">
-                    	<img src="images/featured_3.png" alt="">
-                        <div class="overflow">
-                            <h3>2019 Grady-White 271 FS Canyon</h3>
-                            <p>Lorem ipsum dolor sit ,<br> amet, consectetur</p>
-                        </div>
-                    </div>
-                    
-                    <div class="short-featured" style="margin-right:0px;">
-                    	<img src="images/featured_4.png" alt="">
-                        <div class="overflow">
-                            <h3>2019 Grady-White 271 FS Canyon</h3>
-                            <p>Lorem ipsum dolor sit ,<br> amet, consectetur</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="featured-area">
-	<h2>Featured brands</h2>
-    <div class="graw-featured">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum eu facilisis sed odio morbi quis. Dignissim sodales ut eu sem integer. Dictum fusce ut placerat orci nulla. </p>
-                </div>
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <ul>
-                    	<li><a href="#"><img src="images/brand_1.png" alt=""></a></li>
-                        <li><a href="#"><img src="images/brand_1.png" alt=""></a></li>
-                        <li><a href="#"><img src="images/brand_1.png" alt=""></a></li>
-                        <li><a href="#"><img src="images/brand_1.png" alt=""></a></li>
-                        <li><a href="#"><img src="images/brand_1.png" alt=""></a></li>
-                        <li><a href="#"><img src="images/brand_1.png" alt=""></a></li>
-                        <li><a href="#"><img src="images/brand_1.png" alt=""></a></li>
-                        <li><a href="#"><img src="images/brand_1.png" alt=""></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="testimonial-area">
-	<div class="container">
-    	<div class="row">
-        	<div id="myCarousel" class="carousel slide" data-ride="carousel">
-				<!-- Wrapper for carousel items -->
-				<div class="carousel-inner">
-					<div class="item carousel-item">
-						<div class="img-box"><img src="images/client_1.png" alt=""></div>
-						<p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum eu facilisis sed odio morbi quis. Dignissim sodales ut eu sem integer. </p>
-						<p class="overview"><b>John Doe</b> <br> Ceo, Loremipsum pvt ltd.</p>
-                        <span class="cotation"><img src="images/double_coat.png" alt=""></span>
-					</div>
-					<div class="item carousel-item">
-						<div class="img-box"><img src="images/client_1.png" alt=""></div>
-						<p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum eu facilisis sed odio morbi quis. Dignissim sodales ut eu sem integer. </p>
-						<p class="overview"><b>John Doe</b> <br> Ceo, Loremipsum pvt ltd.</p>
-                        <span class="cotation"><img src="images/double_coat.png" alt=""></span>
-					</div>
-					<div class="item carousel-item active">
-						<div class="img-box"><img src="images/client_1.png" alt=""></div>
-						<p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum eu facilisis sed odio morbi quis. Dignissim sodales ut eu sem integer. </p>
-						<p class="overview"><b>John Doe</b> <br> Ceo, Loremipsum pvt ltd.</p>
-                        <span class="cotation"><img src="images/double_coat.png" alt=""></span>
-					</div>
-				</div>
-				<!-- Carousel controls -->
-				<a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
-					<i class="fa fa-angle-left" aria-hidden="true"></i>
-				</a>
-				<a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
-					<i class="fa fa-angle-right" aria-hidden="true"></i>
-				</a>
-			</div>
-        </div>
-    </div>
-</section>
-
-<footer class="main-footer">
-	<div class="container">
-    	<div class="row">
-        	<div class="col-lg-2 col-md-6 col-sm-12">
-            	<div class="fot-box">
-                	<a class="fot-logo" href="#"><img src="images/fot-logo.png" alt=""></a>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum eu facilisis sed odio morbi quis. </p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-            	<div class="fot-box">
-                	<h4>Quick Link</h4>
-                    <ul>
-                    	<li><a href="#">Lorem ipsum</a></li>
-                        <li><a href="#">Dolor sit amet adis</a></li>
-                        <li><a href="#">Gallery</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Press media</a></li>
-                        <li><a href="#">Featured boat</a></li>
-                        <li><a href="#">Site media</a></li>
-                    </ul>
-                    <ul>
-                    	<li><a href="#">Lorem ipsum</a></li>
-                        <li><a href="#">Dolor sit amet adis</a></li>
-                        <li><a href="#">Gallery</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Press media</a></li>
-                        <li><a href="#">Featured boat</a></li>
-                        <li><a href="#">Site media</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12">
-            	<div class="fot-box">
-                	<h4>Recent post</h4>
-                    <div class="post-box">
-                    	<span class="post-image"><img src="images/post_1.png" alt=""></span>
-                        <p>What’s the Right Asset Allocation For Investors?</p>
-                        <span>Feb 4, 2017  3 Comments</span>
-                    </div>
-                    <div class="post-box">
-                    	<span class="post-image"><img src="images/post_2.png" alt=""></span>
-                        <p>What’s the Right Asset Allocation For Investors?</p>
-                        <span>Feb 4, 2017  3 Comments</span>
-                    </div>
-                    <div class="post-box">
-                    	<span class="post-image"><img src="images/post_3.png" alt=""></span>
-                        <p>What’s the Right Asset Allocation For Investors?</p>
-                        <span>Feb 4, 2017  3 Comments</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 no-padd">
-            	<div class="fot-box contact-box">
-                	<h4>Contact with us</h4>
-                    <ul>
-                    	<li><img src="images/location.png" alt=""> Rock St 12, Newyork City, USA</li>
-                        <li><img src="images/call.png" alt=""> 000 000 000 000</li>
-                        <li><img src="images/message.png" alt=""> loremipsum@gmail.com</li>
-                    </ul>
-                    <div class="address">
-                    	<h5>SALES DEPARTMENT:</h5>
-                        <p>Monday to Friday: 08.00 to 18.00 </p>
-                        <p>Saturday & Sunday: Closed</p>
-                    </div>
-                    <div class="address">
-                    	<h5>SALES DEPARTMENT:</h5>
-                        <p>Monday to Friday: 08.00 to 18.00 </p>
-                        <p>Saturday & Sunday: Closed</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
-
-    
 </div>
-<!--wrapper end-->
+<div class="col-sm-6 col-lg-6 col-md-6 col-xs-8 ymm pull-right">
+<div class="how_it_works_blocks">
+<ul>
+<li><a href="">How It Works</a></li>
+<li><a href=""><span><img src="images/ico01.png"  alt="icon"></span>Login</a></li>
+<li><a href=""><span><img src="images/ico02.png"  alt="icon"></span>Sign up</a></li>
+
+
+</ul>
+
+
+</div>
+
+
+
+</div>
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+</div>
+
+<div class="row">
+<div class="banner">
+
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="images/banner.jpg" alt="banner1">
+    </div>
+    <div class="item">
+       <img src="images/banner2.jpg" alt="banner2">
+    </div>
+    <div class="item">
+       <img src="images/banner3.jpg" alt="banner3">
+    </div>
+  </div>
+
+  <!-- Controls -->
+
+</div>
+
+<div class="form_banner"><h2>Hire a <span>drone</span>, get your <span>pictures</span></h2>
+<div class="clearfix"></div>
+<div class="form_feild"><form>
+  <div class="form-group">
+   
+    <input class="form-control" id="countries" name="name" placeholder="What type of pictures/video do you require?" type="text">
+    <!--<select class="form-control newdrop1">
+	  <option value="volvo">What type of pictures/video do you require?</option>
+	  <option value="saab">What type of pictures/video do you require?</option>
+	  <option value="mercedes">What type of pictures/video do you require?</option>
+	  <option value="mercedes">What type of pictures/video do you require?</option>
+	</select>-->
+  </div>
+  <div class="form-group">
+    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Location">
+  </div>
+  
+  <button type="submit" class="btn btn-default continue">Continue</button>
+</form></div>
+
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+</div>
+	
+    <div class="row">
+    <div class="service_block">
+    <div class="container">
+    <h3>Services We Connect</h3>
+    <div class="clearfix"></div>
+    <div class="border_bb"><img src="images/border_bb.png"  alt="border_b"></div>
+    <div class="clearfix"></div>
+    <p class="text_s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer.</p>
+    
+     <div class="clearfix"></div>
+     
+     <div class="col-sm-3 col-md-3 col-lg-3">
+     <div class="ico_bblock">
+       <img src="images/big_ico_1.png"  alt="icon"> 
+       <div class="clearfix"></div>
+       <p>Real Estate</p>
+       
+       
+       
+       </div>
+     
+     
+     
+     </div><div class="col-sm-3 col-md-3 col-lg-3">
+     <div class="ico_bblock">
+       <img src="images/big_ico_2.png"  alt="icon"> 
+       <div class="clearfix"></div>
+       <p>Weddings</p>
+       </div>
+     
+     
+     
+     </div><div class="col-sm-3 col-md-3 col-lg-3">
+     <div class="ico_bblock">
+       <img src="images/big_ico_3.png"  alt="icon"> 
+       <div class="clearfix"></div>
+       <p>TV/Film</p>
+       </div>
+     
+     
+     </div><div class="col-sm-3 col-md-3 col-lg-3">
+     <div class="ico_bblock">
+       <img src="images/big_ico_4.png"  alt="icon"> 
+       <div class="clearfix"></div>
+       <p>Agriculture</p>
+       
+       
+       
+       </div>
+     
+     
+     
+     </div>
+     
+      <div class="clearfix"></div>
+      
+      <div class="buttons"><button type="submit" class="btn btn-default continue small_screen_b">I AM a drone owner</button>
+      <button type="submit" class="btn btn-default continue MargL12 small_screen_b">I want Aerial Photos/Videos</button></div>
+    
+    </div>
+    
+    
+    
+    
+    </div></div>
+    
+    <div class="row">
+    <div class="how_it_wwok">
+    <div class="container">
+      <div class="col-sm-12 col-lg-12 col-md-12">
+    <h3>How it works</h3></div>
+    <div class="clearfix"></div>
+    <div class="col-sm-4 col-lg-4 col-md-4">
+    <div class="how_it_work_b">
+    <div class="inner_how_it_work">
+    <div class="img_bblock"><img src="images/how_1.png"  alt="how"></div>
+    <h4><span>1</span>Post a job </h4>
+    
+    
+    
+    
+    </div>
+    <p class="lines">Lorem Ipsum is simply printing text of printing and industry Ipsum simply dummy</p>
+    
+    
+    
+    </div>
+    
+    
+    
+    
+    </div>
+    <div class="col-sm-4 col-lg-4 col-md-4">
+    <div class="how_it_work_b">
+    <div class="inner_how_it_work">
+    <div class="img_bblock"><img src="images/how_2.png"  alt="how"></div>
+    <h4><span>2</span>Recive proposal </h4>
+    
+    
+    
+    
+    </div>
+    
+    <p class="lines">Lorem Ipsum is simply printing text of printing and industry Ipsum simply dummy</p>
+    
+    
+    </div>
+    
+    
+    
+    
+    </div><div class="col-sm-4 col-lg-4 col-md-4">
+    <div class="how_it_work_b">
+    <div class="inner_how_it_work">
+    <div class="img_bblock"><img src="images/how_3.png"  alt="how"></div>
+    <h4><span>3</span>Hire now </h4>
+    
+    
+    
+    
+    </div>
+    
+    <p class="lines">Lorem Ipsum is simply printing text of printing and industry Ipsum simply dummy</p>
+    
+    
+    </div>
+    
+    
+    
+    
+    </div>
+    
+    
+    </div>
+    
+    
+    
+    
+    
+    </div>
+    
+    
+    
+    
+    </div>
+    
+    <div class="row">
+    <div class="testimonial_block">
+    <div class="container">
+    <h3>What Our Client Say</h3>
+    <div class="clearfix"></div>
+    
+    <div class="bb">
+    
+     <div class="col-md-12" data-wow-delay="0.2s">
+                        <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                            <!-- Bottom Carousel Indicators -->
+                            <ol class="carousel-indicators small_s">
+                                <li data-target="#quote-carousel" data-slide-to="0" class="active"><img class="img-responsive " src="images/testi_1.png" alt="">
+                                </li>
+                                <li data-target="#quote-carousel" data-slide-to="1"><img class="img-responsive " src="images/testi_2.png" alt="">
+                                </li>
+                                <li data-target="#quote-carousel" data-slide-to="2"><img class="img-responsive " src="images/testi_3.png" alt="">
+                                </li>
+                            </ol>
+
+                            <!-- Carousel Slides / Quotes -->
+                            <div class="carousel-inner min-h text-center">
+
+                                <!-- Quote 1 -->
+                                <div class="item active">
+                                    <blockquote>
+                                        <div class="row">
+                                            <div class="col-sm-12">
+<i class="fa fa-quote-right" aria-hidden="true"></i>
+
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.  has been the industry's standard dummy text ever since the When an printer took galley eets containing Lorem Ipsum passages, and more recently.</p>
+                                                 <div class="sstrong">DAVID PARKER
+                                                 <div class="clearfix"></div>
+                                                 <div class="desig">Customer</div>
+                                                 </div>
+                                            </div>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                                <!-- Quote 2 -->
+                                <div class="item">
+                                    <blockquote>
+                                        <div class="row">
+                                            <div class="col-sm-12">
+<i class="fa fa-quote-right" aria-hidden="true"></i>
+
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.  has been the industry's standard dummy text ever since the When an printer took galley eets containing Lorem Ipsum passages, and more recently.</p>
+                                                <div class="sstrong">DAVID PARKER
+                                                 <div class="clearfix"></div>
+                                                 <div class="desig">Customer</div>
+                                                 </div>
+                                            </div>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                                <!-- Quote 3 -->
+                                <div class="item">
+                                    <blockquote>
+                                        <div class="row">
+                                            <div class="col-sm-12">
+<i class="fa fa-quote-right" aria-hidden="true"></i>
+
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.  has been the industry's standard dummy text ever since the When an printer took galley eets containing Lorem Ipsum passages, and more recently.</p>
+                                                <div class="sstrong">DAVID PARKER
+                                                 <div class="clearfix"></div>
+                                                 <div class="desig">Customer</div>
+                                                 </div>
+                                            </div>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+
+                            <!-- Carousel Buttons Next/Prev -->
+                           <!-- <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+                            <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>-->
+                        </div>
+                    </div>
+    
+    
+    
+    
+    
+    
+    </div>
+    
+    
+    
+    
+    
+    </div>
+    
+    
+    
+    </div>
+    
+    
+    
+    
+    
+    </div>
+    
+ <div class="row">
+ <div class="footer">
+ <div class="container">
+ <div class="col-sm-6 col-lg-6 col-md-6">
+ <div class="abt_drone">
+ <h3>About Pic A Drone</h3>
+ <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.  has been the industry's standard dummy text ever since the When an printer.</p>
+ <a class="read_m" href="#">Read More</a>
  
+ 
+ 
+ </div>
+ 
+ 
+ 
+ </div>
+ 
+  <div class="col-sm-2 col-lg-2 col-md-2">
+  <div class="menu_f"><h3>Menu</h3>
+  <ul>
+  <li><a href="#">Home</a></li>
+  
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Contact Us</a></li>
+     <li><a href="#">Support</a></li>
+  
+  </ul>
+  
+  
+  
+  </div>
+  
+  
+  
+  </div>
+ 
+ <div class="col-sm-4 col-lg-4 col-md-4">
+  <div class="contact_f"><h3>Connect With Us</h3>
+  <p>Phone No. (5200) 8925-1520</p>
+    <p>Email . picadrone55test@gmail.com</p>
+    <ul>
+    <li class="fb"><a href="#"><img src="images/soc_1.png"  alt="facebook">
+    </a></li>
+    
+      <li class="tw"><a href="#"><img src="images/soc_2.png" alt="twitter">
+
+      </a></li>  <li class="g_plus"><a href="#"><img src="images/soc_3.png" alt="twitter">
+</a></li>  <li class="pin"><a href="#"><img src="images/soc_4.png" alt="twitter">
+</a></li>
+    
+    </ul>
+  
+  
+  </div>
+  
+  
+  
+  </div>
+ </div>
+ 
+ <div class="clearfix"></div>
+ <div class="bottom_footer">
+ <div class="container"><p>Copyrights <span>&copy; 2017</span> all Rights Reserved PicADrone.com
+</p></div>
+ 
+ 
+ </div>
+ 
+ </div>
+ 
+ 
+ 
+ </div>
+    
+
+
 </body>
 </html>

@@ -1,0 +1,735 @@
+@charset "utf-8";
+/* CSS Document */
+@media(max-width: 6000px) {
+.form_banner {
+    left: 39%;
+    position: absolute;
+    top: 10%;
+    z-index: 999;
+}
+.menu_dash {
+   /* margin-top: 4px;
+    padding: 0 0 10px 0;*/
+}
+.dropdown_dash {
+    top: 58px;
+}
+}
+
+
+@media(max-width: 5000px) {
+		
+}
+@media(max-width: 4000px) {
+		
+}
+
+
+@media(max-width:2900px) {
+			.form_banner {
+    left: 28%;
+    position: absolute;
+    top: 20%;
+    z-index: 999;
+}
+		
+}
+@media(max-width:2698px) {
+			.form_banner {
+    left: 17%;
+    position: absolute;
+    top: 20%;
+    z-index: 999;
+}}
+
+@media(max-width:1686px) {
+					.form_banner {
+    left: 12%;
+    position: absolute;
+    top: 20%;
+    z-index: 999;
+}
+}
+
+@media(max-width:1506px) {
+
+
+
+}
+
+@media(max-width:1400px) {
+	.form_banner {
+    left: 7%;
+    position: absolute;
+    top: 20%;
+    z-index: 999;
+}
+	
+}
+
+@media screen and (max-width:1280px) {
+		.form_banner {
+    left: 4%;
+    position: absolute;
+    top: 20%;
+    z-index: 999;
+}
+	
+}
+
+
+@media screen and (max-width:1199px) {
+	
+	/*saoli*/
+	.tab_head_sheet {
+    background: #dea03d none repeat scroll 0 0;
+    color: #fff;
+    font-family: "Roboto",sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 5px;
+    text-transform: capitalize;
+}
+.cell1 {
+    display: table-cell;
+    padding: 10px 5px;
+    position: relative;
+    text-align: left;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+	
+	/*saoli*/
+		.form_banner {
+    left: 12%;
+    position: absolute;
+    top: 10%;
+    z-index: 999;
+}
+/*tapan*/
+.accunt_infrm h1 {
+  padding: 74px 98px 20px;
+}
+.social_bnr img {
+  min-height: 548px;
+  width: 100%;
+}
+.fileContainer {
+  font-size: 12px;
+  padding: 12px 6px;
+}
+
+.location_text h4 span{
+	font-size:14px;
+	}
+.location_text h4{
+	font-size:14px;
+	}
+.pilot_text h4{
+	font-size:14px;
+}
+.edit_profile a{
+	font-size:14px;
+	}
+.review_text{padding-left:15px;}
+.right_txt{
+    padding-left:25px;	
+}
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+/*.login_banner {
+    height: 166px;
+}*/
+.login_banner img {
+    width: auto;
+}
+}
+
+
+
+@media screen and (max-width:991px) {
+	
+		/*saoli*/
+		.big_b{
+			width:auto;
+		}
+.W55_1 {
+ display: inline-block;
+    overflow-wrap: break-word;
+    vertical-align: top;
+    white-space: normal;
+    width: 43%;
+
+}
+
+	.cell1 {
+    display: block;
+}
+.table_outer{
+	padding:5px;
+}
+.wwss{
+	 display: inline-block;
+    width: 53%;
+	white-space:normal;
+	word-wrap:break-word;
+	
+}
+		/*----saoli------*/
+	.small_screen31 {
+    background: #f8f8f8 none repeat scroll 0 0;
+    float: left;
+    margin: 0 1% 20px;
+    min-height: 240px;
+    overflow: hidden;
+    padding: 0 8px;
+    width: 48%;
+}
+/*----saoli------*/	
+	
+	
+	/*saoli*/
+	
+	.form_banner {
+    left: 14%;
+    position: absolute;
+    top: 10%;
+    z-index: 999;
+}
+.form_banner h2{
+	font-size:36px;
+}
+.inner_how_it_work h4{
+		font-size:16px;
+	}
+.min-h {
+    min-height: 301px;
+}
+.accunt_infrm h1 {
+  padding: 74px 50px 20px;
+  font-size:25px;
+}
+.upldpic img {
+  width: auto;
+}
+.brwsebtn {
+  margin-top: 27px;
+}
+/*public-profile
+------------------------*/
+.service_part h4{
+	font-size:13px;
+	}
+.service_part h5{
+	font-size:13px;
+	}
+.review_text{padding-left:0px;}
+.right_txt{padding-left:0px;}
+.portfolio_pic img{width:100%;}
+.portfolio_part .col-sm-6{
+	margin-bottom:20px;
+	}
+/*public-profile--end
+------------------------*/
+table th{font-size:14px;}
+table td{font-size:13px;}
+.job_box{
+	margin-bottom:15px;
+	}
+
+}
+
+	@media screen and (max-width:960px) {
+	}
+
+@media screen and (max-width:767px) {
+	.account_detail_part h4{
+		margin-bottom:15px;
+	}
+	.tab_head_sheet_111{
+		font-size:13px;
+	}
+	.account_outer{
+		padding:10px;
+	}
+	.withdrawl ul li{
+		margin:0 0 10px;
+		padding:0;
+	}
+	.wwss{
+	 display: inline-block;
+    width: 56%;
+	white-space:normal;
+	word-wrap:break-word;
+	
+}
+	.transaction_outer h3{
+		padding:10px;
+	}
+	
+.nopadding{
+	padding-left:15px !important;
+}
+	
+	
+	
+	.inner_how_it_work h4{
+		font-size:22px;
+	}
+	.footer h3{
+		margin:0 0 14px;
+	}
+	.abt_drone,.menu_f{
+		margin-bottom:25px;
+	}
+	
+/*tapan	*/
+.npdd{
+	padding:0;
+	}
+.signup_area {
+  width: 84%;
+}
+.checkbox-group label {
+  line-height: 28px;
+  text-align: left;
+}
+.social_bnr img {
+  height: 320px !important;
+  min-height:inherit !important;
+  width:100%;
+}
+.edit_profile{
+	text-align:left;
+	}
+.service_part h4{
+	font-size:16px;
+	}
+.service_part h5{
+	font-size:16px;
+	}
+.job_boxx{
+	background:url(../images/drp.png) no-repeat #fff 95% 50%;
+	}		
+}
+@media screen and (max-width:750px) {
+	.dashboard_header{
+		margin-bottom:10px;
+	}
+	.form_banner {
+    left: 4%;
+    position: absolute;
+    top: 0;
+    z-index: 999;
+}
+.form_banner h2{
+	font-size:36px;
+}
+}
+@media screen and (max-width:767px){
+	.lines {
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.ico_bblock{
+	margin-bottom:20px;
+	}
+.ico_bblock p{
+	margin-bottom:10px;
+	}
+.form_banner h2 {
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+.form_banner{
+	top:15px;
+	}
+.text-right {
+    text-align: left;
+    margin: 3px 0 9px 0;
+}
+}
+@media screen and (max-width:700px) {
+	.form_banner {
+    left: 4%;
+    position: absolute;
+    top: 12px;;
+    z-index: 999;
+}
+.dash_board_outer .col-xs-5,.col-xs-4,.col-xs-3{
+	width:100%;
+	}
+.dashboard_img{
+	margin-left:15px;
+	}	
+.dash_board_outer{
+	position:static;
+}
+.btm_innr{
+	padding-bottom:20px;
+	display:inline-block;
+	}
+}
+
+@media screen and (max-width:601px) {
+
+.min-h {
+    min-height: 332px;
+}
+	.how_it_works_blocks ul {
+    float: none;
+    padding: 15px 0;
+    text-align: center;
+}
+	.form_banner{
+		position:relative;
+		left:0;
+		top:0;
+		background:#e7e7e7;
+		padding:10px;
+	}
+	.form_feild{
+		text-align:center;
+		margin:0 auto;
+	}
+	.form_banner h2{
+		margin:0 0 20px;
+		width:100%;
+		font-size:26px;
+		text-align:center;
+	}
+	.logo{
+		max-width:220px;
+		margin:0 auto;
+		text-align:center;
+	}
+	.ym{
+		width:100% !important;
+		text-align:center;
+	}
+.ymm{
+		width:100% !important;
+	}
+	.how_it_works_blocks ul{
+		padding:15px 0;
+	}
+.small_screen_b{
+	width:auto;
+	margin-bottom:10px;
+}
+.MargL12{
+	margin-left:0;
+}
+blockquote{
+	padding:10px 0;
+}
+#quote-carousel{
+	padding:0 0 10px;
+}
+	.small_s{
+		left:28%;
+		width:100%
+	}
+	
+/*tapan	*/
+.signup_area {
+  width: 94%;
+}
+}
+
+
+@media screen and (max-width:580px) {
+	/*----saoli------*/
+	.withdrawl ul li{
+		width:100%;
+	}
+	
+	.submit-login .btn-default{
+		font-size:13px;
+		padding:10px 14px;
+	}
+	.small_screen31 {
+    background: #f8f8f8 none repeat scroll 0 0;
+    float: left;
+    margin: 0 1% 20px;
+    min-height: 240px;
+    overflow: hidden;
+    padding: 0 8px;
+    width: 98%;
+}
+	.W100{
+		width:100% !important;
+	}
+/*----saoli------*/
+	
+	
+	
+
+.min-h {
+    min-height: 439px;
+}
+	.how_it_works_blocks ul {
+    float: none;
+    padding: 15px 0;
+    text-align: center;
+}
+	.form_banner{
+		position:relative;
+		left:0;
+		top:0;
+		background:#e7e7e7;
+		padding:10px;
+	}
+	.form_feild{
+		text-align:center;
+		margin:0 auto;
+	}
+	.form_banner h2{
+		margin:0 0 20px;
+		width:100%;
+		font-size:26px;
+		text-align:center;
+	}
+	.logo{
+		max-width:220px;
+		margin:0 auto;
+		text-align:center;
+	}
+	.ym{
+		width:100% !important;
+	}
+.ymm{
+		width:100% !important;
+	}
+	.how_it_works_blocks ul{
+		padding:15px 0;
+	}
+.small_screen_b{
+	width:100%;
+	margin-bottom:10px;
+}
+.MargL12{
+	margin-left:0;
+}
+blockquote{
+	padding:10px 0;
+}
+#quote-carousel{
+	padding:0 0 10px;
+}
+	.small_s{
+		left:28%;
+		width:100%
+	}
+/*tapan	*/
+.signup_area {
+  width: 99%;
+}
+
+.public_hdng .col-xs-6{
+	width:100%;
+	}
+.right_txt {
+    padding-left: 20px;
+}
+.review_text {
+    padding-left: 20px;
+}
+.portfolio_text h5 {
+    font-size: 14px;
+     padding: 10px 0;
+}
+.min-h {
+    min-height: 355px;
+}
+
+	}
+	
+@media screen and (max-width:554px) {
+	.adUp {
+  margin-left: 0;
+}
+.tabs_area {
+  padding: 0 0 20px 15px;
+}
+.nav-tabs > li {
+  margin-bottom: 1px;
+  width: 100%;
+}
+.nav-tabs > li > a {
+  width: 100%;
+}
+.account_section h1 {
+  font-size: 22px;
+}
+
+.accnt_menu li{
+	margin:15px 0px;
+	font-size:14px;
+	}
+#quote-carousel .carousel-indicators .active {
+    width: 55px;
+    height: 55px;
+}
+#quote-carousel .carousel-indicators li {
+    width: 55px;
+    height: 55px;
+}
+
+
+
+#quote-carousel .carousel-indicators {
+    bottom: -4% !important;
+}
+}	
+	
+	
+
+@media screen and (max-width:480px) {
+		/*saoli*/
+
+	.social_login{
+		width:92%;
+	}
+	.bigbtn{
+		width:100%;
+	}
+	
+	
+	/*saoli*/
+	.lgn_section{
+		width:100% !important;
+		display:block;
+		overflow:hidden;
+		}
+.lgin_area {
+  width: 98%;
+}
+.face_bk {
+  width: 198px;
+    margin-bottom: 5px;
+}
+.gPlus_bk {
+  width: 198px;
+}
+.review_item .col-xs-2,.col-xs-10{
+	width:100%;
+	}
+.review_text{
+	padding-left:0px;
+	}
+.review_pic{
+	padding-left:15px;
+	margin-bottom:15px;
+	}
+.portfolio_part .col-xs-6{
+	width:100%;
+	}	
+.portfolio_text h5 {
+    font-size: 17px;
+    padding: 13px 0;
+}	
+.service_part h4{
+	font-size:14px;
+	}
+.service_part h5{
+	font-size:14px;
+	}
+.accnt_menu li {
+    margin: 5px 0;
+}
+.account_detail_part h4{
+	margin-bottom:10px;
+	}
+.item blockquote {
+    font-size: 16px;
+}
+.forgt {
+    width: 100%;
+    display: block;
+    float: left;
+    overflow: hidden;
+	float:left;
+}
+.submit-login {
+    margin-top: 12px;
+}
+.forgt {
+    margin-top: 20px;
+}
+.forgt p {
+    text-align: center;
+}
+}
+	
+	@media screen and (max-width:380px) {
+		
+	.bb .btn-default{
+		font-size:11px;
+		padding:10px 4px;
+	}
+	.how_it_works_blocks ul li{
+		margin:0 30px 0 0;
+	}
+	.rigstry ul li {
+  font-size: 14px;
+  margin-right:10px;
+}
+.rigstry ul li span {
+  height: 24px;
+  width: 24px;
+  margin-right:8px;
+  line-height: 22px !important;
+}
+.rigstry {
+  width: 287px;
+}
+.left_hdng h5{
+	font-size:16px;
+	}
+}
+@media screen and (max-width:370px) {
+	
+	/*--saoli--*/
+	.btm_icons h6{
+		margin-top:10px;
+	}
+	
+	
+	/*--saoli--*/	
+	.how_it_works_blocks ul li{
+		margin:0 19px 0 0;
+	}
+/*tapan*/
+.accunt_infrm h1 {
+  font-size: 20px;
+}
+.face_bk2 {
+  font-size: 16px;
+}
+.gPlus_bk2 {
+  font-size: 16px;
+}
+.face_bk2 {
+  width: 250px;
+}
+.gPlus_bk2 {
+  width: 250px;
+}
+.left_hdng h5 {
+    font-size: 14px;
+}
+}
+
+@media screen and (max-width:348px) {	
+	.how_it_works_blocks ul li{
+		margin:0 5px 0 0;
+	}
+}

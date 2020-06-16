@@ -1,0 +1,553 @@
+<!doctype html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>account_settings_tab</title>
+
+
+
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/custom.css" rel="stylesheet" type="text/css">
+<link href="css/custom_responsive.css" rel="stylesheet" type="text/css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+
+
+
+
+
+
+
+
+<!--Animation-->
+<script src="js/wow.min.js"></script>
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+<script>
+	new WOW().init();
+</script>
+<!--/End-Animation-->
+
+
+<!--<script>
+$(document).ready(function() {
+	alert($(window).width());
+    
+});
+
+
+
+</script>-->
+
+<script>
+$(document).ready(function(){
+    $(".menu_dash").mouseenter(function(){
+        $(".dropdown_dash").slideDown();
+    });
+	$(".dropdown_dash").mouseleave(function(){
+		$(".dropdown_dash").slideUp();
+	});
+});
+</script>
+
+
+
+  
+
+
+
+
+</head>
+<body>
+<div class="row">
+<div class="top_header">
+<div class="container">
+<div class="col-sm-3 col-lg-3 col-md-3 col-xs-4 ym">
+<a class="logo" href="#"><img src="images/logo.png"  alt="logo"></a>
+
+
+</div>
+<div class="col-sm-6 col-lg-6 col-md-6 col-xs-8 ymm pull-right">
+<div class="dashboard_header">
+          <div class="menu_dash">
+            <span class="uu_roundd"><img alt="" src="images/profile_pic.png" class="img-circle "></span>
+            <p>Hi, ABHISHEK <img src="images/hi.png" class="noboder arr_topp" alt=""></p>
+            <div class="clearfix"></div>
+            
+             </div>
+            <div class="dropdown_dash" style="display:none;">
+       <ul>
+     <li><a href="#">Account Settings</a></li>
+     <li><a href="#">Withdrawal Request</a></li>
+     <li><a href="#">Transactions</a></li>
+     <li><a href="#">Sign Out</a></li>
+     </ul>
+      </div>
+            
+            </div>
+
+
+
+</div>
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+</div>
+
+<div class="row">
+<div class="login_banner">
+	<img src="images/lgin_bnr.jpg" alt="">
+    
+    <div class="account_section">
+        <div class="container">
+            <div class="col-md-12">
+                <h1>Account Settings</h1>
+            </div>
+        </div>
+    </div>
+    
+</div>
+</div>
+
+
+
+<div class="row">
+<div class="tab_contain">
+<div class="container">
+  <ul id="tabs" class="nav nav-tabs adUp" data-tabs="tabs">
+    <li class="active"><a data-toggle="tab" href="#home">Account Details</a></li>
+    <li><a data-toggle="tab" href="#menu1">Account Security</a></li>
+    <li><a data-toggle="tab" href="#menu2">Notifications</a></li>
+  </ul>
+<div class="tabs_area">
+
+   <div id="my-tab-content" class="tab-content cust_tabs_cont">
+   
+   <!--TAB(1) area start-->
+   <div class="tab-pane active fade in" id="home">
+   
+   	<div class="prfl_detl">
+    	<h3>Profile Details</h3>
+        
+        						<form>
+                                
+                                 <div class="col-md-3 col-sm-6 nopaddL">
+                                  <div class="your-mail">
+                                  <label>First Name *</label>
+                                    <input class="form-control" id="exampleInputEmail1" placeholder="Type your first name" type="text">
+                                  </div>
+                                 </div>
+                                 
+                                 <div class="col-md-3 col-sm-6 nopaddL">
+                                  <div class="your-mail">
+                                  <label>Last Name *</label>
+                                    <input class="form-control" id="exampleInputEmail1" placeholder="Type your last name" type="text">
+                                  </div>
+                                 </div>
+                                 
+                                 <div class="col-md-3 col-sm-6 nopaddL">
+                                  <div class="your-mail">
+                                  <label>Address *</label>
+                                    <input class="form-control" id="exampleInputEmail1" placeholder="Address *" type="text">
+                                  </div>
+                                 </div>
+                                 
+                                 <div class="col-md-3 col-sm-6 nopaddL">
+                                  <div class="your-mail">
+                                  <label>Country *</label>
+                                    <select class="form-control newdrop3">
+                                              <option value="volvo">Select Country</option>
+                                              <option value="saab">India</option>
+                                              <option value="mercedes">Australia</option>
+                                              <option value="mercedes">USA</option>
+                                            </select>
+                                  </div>
+                                 </div>
+                                 
+                                 <div class="col-md-3 col-sm-6 nopaddL">
+                                 <div class="your-mail">
+                                  <label>State *</label>
+                                    <input class="form-control" id="exampleInputEmail1" placeholder="Type your state" type="text">
+                                  </div>
+                                 </div>
+                                 
+                                 <div class="col-md-3 col-sm-6 nopaddL">
+                                  <div class="your-mail">
+                                  <label>City *</label>
+                                    <input class="form-control" id="exampleInputEmail1" placeholder="Type your city" type="text">
+                                  </div>
+                                 </div>
+                                 
+                                 <div class="col-md-3 col-sm-6 nopaddL">
+                                  <div class="your-mail">
+                                  <label>Postal Code *</label>
+                                    <input class="form-control" id="exampleInputEmail1" placeholder="Type your postal code" type="text">
+                                  </div>
+                                 </div>
+                                 
+                                 <div class="col-md-3 col-sm-6 nopaddL">
+                                  <div class="your-mail">
+                                 <!-- <label></label>-->
+                                    <div class="form-group btommrgn0">
+                                     <div class="brwsebtn">
+                                     <!--<div class="col-lg-6 col-md-6 col-sm-6 nopadding_left"><span class="upload_l">Upload PDF:</span>
+                                     </div>-->
+                                     <span class="col-lg-9 col-md-9 col-sm-8 nopadd">
+                                     <span class="fileContainer">
+                                     <img src="images/upload.png" alt=""> Upload your Image
+                                     <input type="file">
+                                     </span></span>
+                                     
+                                     <span class="col-lg-3 col-md-3 col-sm-4 nopaddR">
+                                     <i class="upldpic"><img src="images/upld.jpg" alt=""></i>
+                                     </span>
+                                     
+                                     </div></div>
+                        
+                                  </div>
+                                 </div>
+                                 
+                                 <div class="col-md-6 col-sm-6 nopaddL">
+                                  <div class="your-mail">
+                                  <label>Introduction *</label>
+                                    <textarea class="form-control message" rows="3" placeholder="Type here..."></textarea>
+                                  </div>
+                                 </div>
+                                 
+                                 <div class="col-md-6 col-sm-6 nopaddL">
+                                  <div class="your-mail">
+                                  <label>Basic Summary *</label>
+                                    <textarea class="form-control message" rows="3" placeholder="Type here..."></textarea>
+                                  </div>
+                                 </div>
+                                 
+                                 <div class="clearfix"></div>
+                                 
+                                 <h3>Profile Details</h3>
+                                 
+                                 <div class="col-md-6 col-sm-6 nopaddL">
+                                  <div class="your-mail">
+                                  <label>Company Display Name *</label>
+                                    <input class="form-control" id="exampleInputEmail1" placeholder="Type your Company display name" type="text">
+                                  </div>
+                                 </div>
+                                 
+                                 <div class="col-md-6 col-sm-6 nopaddL">
+                                  <div class="your-mail">
+                                  <label>Web URL *</label>
+                                    <input class="form-control" id="exampleInputEmail1" placeholder="Web URL *" type="text">
+                                  </div>
+                                 </div>
+                                 
+                                 
+                                 <div class="col-md-3 col-sm-6 nopaddL">
+                                  <div class="your-mail">
+                                  <label>Contact Name *</label>
+                                    <input class="form-control" id="exampleInputEmail1" placeholder="Type your contact name" type="text">
+                                  </div>
+                                 </div>
+                                 
+                                 <div class="col-md-3 col-sm-6 nopaddL">
+                                  <div class="your-mail">
+                                  <label>Contact Email *</label>
+                                    <input class="form-control" id="exampleInputEmail1" placeholder="Type your contact email" type="text">
+                                  </div>
+                                 </div>
+                                 
+                                 <div class="col-md-3 col-sm-6 nopaddL">
+                                  <div class="your-mail">
+                                  <label>Country *</label>
+                                    <select class="form-control newdrop3">
+                                              <option value="volvo">Select Country</option>
+                                              <option value="saab">India</option>
+                                              <option value="mercedes">Australia</option>
+                                              <option value="mercedes">USA</option>
+                                            </select>
+                                  </div>
+                                 </div>
+                                 
+                                 
+                                  
+                                  <div class="clearfix"></div>
+                                  <div class="submit-login txtalgn">
+                                  	<button type="submit" class="btn btn-default">SAVE CHANGES</button>
+                                  </div>
+                               </form>	
+                               
+                               
+                               
+                               				
+        
+        
+    </div>
+     
+   </div>
+   <!--TAB(1) area end-->
+   
+   
+   <!--TAB(2) area start-->
+   <div class="tab-pane fade in" id="menu1">
+   
+   <div class="prfl_detl">
+    	<h3>Change Password</h3>
+        
+        						<form>
+                                
+                                 
+                                 <div class="col-md-6 col-sm-6 nopaddL">
+                                  <div class="your-mail">
+                                  <label>Current Password *</label>
+                                    <input class="form-control" id="exampleInputEmail1" placeholder="Type your current password" type="password">
+                                  </div>
+                                 </div>
+                                 
+                                 <div class="col-md-6 col-sm-6 nopaddL">
+                                  <div class="your-mail">
+                                  <label>New Password *</label>
+                                    <input class="form-control" id="exampleInputEmail1" placeholder="Type your new password" type="password">
+                                  </div>
+                                 </div>
+                                 
+                                
+                                 
+                                 <div class="col-md-6 col-sm-6 nopaddL">
+                                  <div class="your-mail">
+                                  <label>Re-enter Password *</label>
+                                    <input class="form-control" id="exampleInputEmail1" placeholder="Re-enter new password" type="password">
+                                  </div>
+                                 </div>
+
+                                  
+                                  <div class="clearfix"></div>
+                                  <div class="submit-login txtalgn">
+                                  	<button type="submit" class="btn btn-default">CHANGE password</button>
+                                  </div>
+                               </form>	
+
+        
+    </div>
+    
+   </div>
+   <!--TAB(2) area end-->
+   
+   
+   <!--TAB(3) area start-->
+   <div class="tab-pane fade in" id="menu2">
+   
+   <div class="prfl_detl">
+
+        
+        						<form class="topmrgn">
+                                
+                                 
+                                 <div class="col-md-6 col-sm-6 nopaddL">
+                                  <div class="your-mail">
+                                  <label>Email Address</label>
+                                    <input class="form-control" id="exampleInputEmail1" placeholder="Type your email address" type="text">
+                                  </div>
+                                 </div>
+                                 
+                                 <div class="col-md-6 col-sm-6 nopaddL">
+                                  <div class="your-mail">
+                                  <label>Enter Current Password <i>(if changing email)</i></label>
+                                    <input class="form-control" id="exampleInputEmail1" placeholder="Enter your current password" type="password">
+                                  </div>
+                                 </div>
+                            
+
+                                  <div class="clearfix"></div>
+                                  <div class="submit-login txtalgn topuse">
+                                  	<button type="submit" class="btn btn-default">Change Email Address</button>
+                                  </div>
+                                  
+                                  
+                                  <div class="col-md-12 nopadding_left"><div class="bodr"></div></div>
+                                  
+                                  <h4>I Want To Receive Email</h4>
+                                  
+                                  
+                                  <div class="recive_section">
+                                  	<div class="col-md-8 col-sm-8">
+                                    	<h5>When a bid is placed/updated. </h5>
+                                    </div>
+                                    <div class="swth">
+                                    	<label class="switch">
+                                          <input type="checkbox">
+                                          <div class="slider round"></div>
+                                        </label>
+                                       <h6> ON</h6>
+                                    </div>
+                                  </div>
+                                  
+                                  <div class="recive_section1">
+                                  	<div class="col-md-8 col-sm-8">
+                                    	<h5>When a bid is placed/updated. </h5>
+                                    </div>
+                                    <div class="swth">
+                                    	<label class="switch">
+                                          <input type="checkbox">
+                                          <div class="slider round"></div>
+                                        </label>
+                                       <h6> OFF</h6>
+                                    </div>
+                                  </div>
+                                  
+                                  <div class="recive_section">
+                                  	<div class="col-md-8 col-sm-8">
+                                    	<h5>When a bid is placed/updated. </h5>
+                                    </div>
+                                    <div class="swth">
+                                    	<label class="switch">
+                                          <input type="checkbox">
+                                          <div class="slider round"></div>
+                                        </label>
+                                       <h6> ON</h6>
+                                    </div>
+                                  </div>
+                                  
+                                  <div class="recive_section1">
+                                  	<div class="col-md-8 col-sm-8">
+                                    	<h5>When a bid is placed/updated. </h5>
+                                    </div>
+                                    <div class="swth">
+                                    	<label class="switch">
+                                          <input type="checkbox">
+                                          <div class="slider round"></div>
+                                        </label>
+                                       <h6> OFF</h6>
+                                    </div>
+                                  </div>
+                                  
+                                  
+                               </form>	
+
+        
+    </div>
+    
+   </div>
+   <!--TAB(3) area end-->
+   
+   
+   
+  
+   
+   
+ 
+   
+   
+   </div>
+</div>
+
+
+
+
+
+</div>
+</div>
+</div>
+
+
+	
+    
+    
+    
+    
+    
+    
+    
+    
+ <div class="row">
+ <div class="footer">
+ <div class="container">
+ <div class="col-sm-6 col-lg-6 col-md-6">
+ <div class="abt_drone">
+ <h3>About Pic A Drone</h3>
+ <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.  has been the industry's standard dummy text ever since the When an printer.</p>
+ <a class="read_m" href="#">Read More<span><img src="images/arrow.png"  alt="arrow"></span></a>
+ 
+ 
+ 
+ </div>
+ 
+ 
+ 
+ </div>
+ 
+  <div class="col-sm-2 col-lg-2 col-md-2">
+  <div class="menu_f"><h3>Menu</h3>
+  <ul>
+  <li><a href="#">Home</a></li>
+  
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Contact Us</a></li>
+     <li><a href="#">Support</a></li>
+  
+  </ul>
+  
+  
+  
+  </div>
+  
+  
+  
+  </div>
+ 
+ <div class="col-sm-4 col-lg-4 col-md-4">
+  <div class="contact_f"><h3>Connect With Us</h3>
+  <p>Phone No. (5200) 8925-1520</p>
+    <p>Email . picadrone55test@gmail.com</p>
+    <ul>
+    <li class="fb"><a href="#"><img src="images/soc_1.png"  alt="facebook">
+    </a></li>
+    
+      <li class="tw"><a href="#"><img src="images/soc_2.png" alt="twitter">
+
+      </a></li>  <li class="g_plus"><a href="#"><img src="images/soc_3.png" alt="twitter">
+</a></li>  <li class="pin"><a href="#"><img src="images/soc_4.png" alt="twitter">
+</a></li>
+    
+    </ul>
+  
+  
+  </div>
+  
+  
+  
+  </div>
+ </div>
+ 
+ <div class="clearfix"></div>
+ <div class="bottom_footer">
+ <div class="container"><p>Copyrights <span>&copy; 2017</span> all Rights Reserved PicADrone.com
+</p></div>
+ 
+ 
+ </div>
+ 
+ </div>
+ 
+ 
+ 
+ </div>
+    
+
+
+</body>
+</html>
